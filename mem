@@ -1,0 +1,16 @@
+0x00000000 – 0x000003FF : Interrupt Vector Table
+0x00000400 – 0x000004FF : BIOS Data Area
+0x00000500 – 0x00006FFF : Temporary boot workspace
+0x00007000 – 0x00007BFF : Loader scratch
+0x00007C00 – 0x00007DFF : Boot Sector
+0x00007E00 – 0x0009EFFF : Kernel
+0x0009F000 – 0x0009FBFF : Kernel Heap
+0x0009FC00 – 0x0009FFFF : System Stack
+0x000A0000 – 0x000BFFFF : Video RAM
+-----------------------------------------
+0x00100000 – 0x001FFFFF : Application Memory
+0x00200000 – 0x002FFFFF : Database Storage
+0x00300000 – 0x0037FFFF : Transaction Buffer
+0x00380000 – 0x003FFFFF : Device I/O Buffer
+0x00400000 – 0x0047FFFF : UI Buffer
+0x00480000 – 0x004FFFFF : Hardware Buffer
